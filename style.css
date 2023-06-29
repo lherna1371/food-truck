@@ -1,0 +1,109 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #f0e68c;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+a {
+    background-color: #a52a2a;
+    color: white;
+    font-family: sans-serif;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container-bg {
+    background-image: url("https://hackerusa-ce.github.io/intro-v2-final-project/assets/images/heroBackground.jpg");
+    background-size: cover;
+    height: 85vh;
+    position: relative;
+}
+
+.icon {
+    padding: 25px;
+    width: 10em;
+}
+
+h2 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 35px;
+    color: #800000;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #800000;
+}
+
+h3 {
+    font-family: inherit;
+    font-size: 35px;
+    color: #4682B4
+}
+
+h4 {
+    font-family: monospace;
+    font-size: 35px;
+}
+
+.menu {
+    border: 2px solid red;
+    width: 300px;
+    padding: 20px;
+    width: 800px;
+    text-align: center;
+}
+
+.address {
+    font-family: cursive;
+    font-size: 20px;
+    color: #DAA520;
+}
+
+span {
+    font-family: "tahoma";
+    font-size: 15px;
+    color: #DAA520;
+}
+
+p {
+    font-family: Calibri;
+}
+
+.food-images div {
+    display: grid;
+    justify-content: center;
+    width: 30%;
+
+}
+
+.food-images div img {
+    width: 50%;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social {
+    height: 100px;
+    width: 100px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
